@@ -14,6 +14,7 @@ public class FormatearFecha {
             miNuevaFecha = format2.format(format.parse(fecha));
         } catch (ParseException e) {
 
+
         }
         return miNuevaFecha;
     }
